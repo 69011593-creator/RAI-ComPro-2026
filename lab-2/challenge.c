@@ -12,7 +12,7 @@ int main() {
     float avg = sum / 3.0;
     int max = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
     int min = (num1 < num2) ? ((num1 < num3) ? num1 : num3) : ((num2 < num3) ? num2 : num3);
-    
+
     printf("Minimum: %d\n", min);
     printf("Maximum: %d\n", max);
     printf("Sum: %d\n", sum);
